@@ -1,10 +1,10 @@
-Name:		plasmate
 Summary:	KDE Plasma Add-On Creator
+Name:		plasmate
 Version:	1.0
-Release:	1
+Release:	2
+License:	GPLv2+
 Group:		Graphical desktop/KDE
-License:	GPLv2
-URL:		https://projects.kde.org/projects/extragear/sdk/plasmate
+Url:		https://projects.kde.org/projects/extragear/sdk/plasmate
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/src/%{name}-%{version}.tar.gz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdepimlibs4-devel
@@ -44,5 +44,5 @@ Runners, Dataengines.
 
 %install
 %makeinstall_std -C build
-rm -f %{buildroot}/%{_kde_iconsdir}/hicolor/*/apps/plasmagik.png
+rm -f %{buildroot}%{_kde_iconsdir}/hicolor/*/apps/plasmagik.png
 
