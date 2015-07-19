@@ -1,7 +1,7 @@
 Summary:	KDE Plasma Add-On Creator
 Name:		plasmate
 Version:	1.0
-Release:	9
+Release:	10
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://projects.kde.org/projects/extragear/sdk/plasmate
