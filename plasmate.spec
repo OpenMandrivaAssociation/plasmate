@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://projects.kde.org/projects/extragear/sdk/plasmate
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/src/%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdepimlibs4-devel
 BuildRequires:	git-core
